@@ -33,7 +33,7 @@ services:
     entrypoint: ["sleep", "infinity"]
     volumes:
       - ./.m2:/home/developer/.m2
-      - ./app:/home/developer/project
+      - ./project:/home/developer/project
     # ports:
     #   - "8080:8080"
     networks:
