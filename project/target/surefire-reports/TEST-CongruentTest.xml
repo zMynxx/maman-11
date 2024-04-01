@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="CongruentTest" time="0.026" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="CongruentTest" time="0.028" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="18.0.2.1+1-1"/>
@@ -39,7 +39,7 @@
     <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="18"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -e"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.home" value="/usr/local/openjdk-18"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -56,6 +56,6 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.stdout.encoding" value="UTF-8"/>
   </properties>
-  <testcase classname="CongruentTest" name="testCongruentMain_NonCongruentTriangles" time="0.023"/>
-  <testcase classname="CongruentTest" name="testCongruentMain_CongruentTriangles" time="0.003"/>
+  <testcase classname="CongruentTest" name="testCongruentMain_CongruentTriangles" time="0.023"/>
+  <testcase classname="CongruentTest" name="testCongruentMain_NonCongruentTriangles" time="0.005"/>
 </testsuite>
