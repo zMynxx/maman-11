@@ -50,7 +50,7 @@ alias rc := run-compile
 # Run the test command
 run-test:
   @echo "Running test..."
-  docker compose exec java-dev /bin/mvn test
+  docker compose exec app mvn test
 alias rt := run-test
 
 # Restart container
